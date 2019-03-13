@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+
 
     var count = 0;
     var images = ['../GifTastic/assets/images/whitecat.jpg',
@@ -30,7 +30,7 @@ $(document).ready(function(){
       }
     },4000);
   
-  });
+
 
 /*var imgArray = ['../GifTastic/assets/images/catgrey.jpg', '../GifTastic/assets/images/catsorange.jpg', '../GifTastic/assets/images/rainbowkitty.jpg']; // Define Your imgs here, can be html name of color, hex, rgb or anything what You can use in CSS
  imgArray.forEach(function(element){
