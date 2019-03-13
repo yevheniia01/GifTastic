@@ -1,0 +1,37 @@
+.gif{
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+}
+.gifDisplayText{
+    float: left;
+    width: 300px;
+}
+body{
+    /*background: #000000fc;*/
+    
+}
+/*#fader
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left:0;
+  top:0;
+  z-index: -99;
+
+
+  
+}*/
+.fader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: -99;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
