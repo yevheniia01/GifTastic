@@ -10,34 +10,50 @@
     
 </head>
 <body>
-        <div class="fader col-md-12 col-sm-6">
-            </div>
+      
+           
     <div class="container">
-        <h1>Hit Animal Button or Add Your Own</h1>
-            
-    <div class="col col-md-12 col-sm-12" id="buttons">
+     
+        
+            <div class="row" id="firstRow">
+                
+                    <h1 class="col col-md-12">Hit Animal Button or Add Your Own</h1>
+                <div class="col col-md-12 col-sm-8" id="buttons">
    
         
     </div>
-    <div class="colform col-md-6">
+    
+    <div class="colform col-md-12">
     <form id="gifForm">
-        <label for="gifInputText">Add a Movie, Yo!</label>
+        <div class="colLabel col-md-3">
+        <label  for="gifInputText" id="inputLbl">Add a Movie, Yo!</label>
+        </div>
+        <div class="colTextInput col-md-8">
         <input type="text" id="gifInputText">
-        <br>
-  
+    </div>
+      
+        
         <!-- Button triggers new movie to be added -->
-        <input id="gifInputBtn" type="submit" value="Add a Gif, Yo!">
+        <div class="col col-md-4">
+        <a href="#" id="gifInputBtn"  value="Add a Gif, Yo!">Add Your Button!</a>
+           </div> 
+        <br>
+        <div class="col col-md-4">
+        <a href="#" id="removeGifsText">Remove All Gifs</a>
+           </div>
       </form>
     </div>
-    <div class="colRemoveBtn col-md-6">
-      <button id="removeGifsText">Remove All Gifs</button>
-    </div>
-      <div class="colDisplayImg col-md-12" id="gifDisplayImg"></div>
-      
+</div>
+     
+    
+      <div class="colDisplayImg col-md-12" id="gifDisplayImg">
+          
+      </div>
+    
 
     </div>
 
-
+       
 
 
     
