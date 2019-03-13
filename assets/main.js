@@ -2,7 +2,7 @@
 
 
 
-    var count = 0;
+    /*var count = 0;
     var images = ['../GifTastic/assets/images/whitecat.jpg',
                   '../GifTastic/assets/images/beardeddragon1.jpg',
                   '../GifTastic/assets/images/catsorange.jpg', 
@@ -28,23 +28,12 @@
       {
         count = 0;
       }
-    },4000);
-  
+    },40000);
+  */
 
 
-/*var imgArray = ['../GifTastic/assets/images/catgrey.jpg', '../GifTastic/assets/images/catsorange.jpg', '../GifTastic/assets/images/rainbowkitty.jpg']; // Define Your imgs here, can be html name of color, hex, rgb or anything what You can use in CSS
- imgArray.forEach(function(element){
-setInterval(function(){
-    $('body').append('<img src >'+imgArray+'</img>')
-},3000)
- })
-   var imgs = ['../GifTastic/assets/images/catgrey.jpg', '../GifTastic/assets/images/catsorange.jpg', '../GifTastic/assets/images/rainbowkitty.jpg']; // Define Your imgs here, can be html name of color, hex, rgb or anything what You can use in CSS
-   var active = 0;
-   setInterval(function(){
-       document.querySelector('body').src = imgs[active];
-       active++;
-       if (active == imgs.length) active = 0;
-   }, 3000);*/
+
+
    
    var topics = ['Axolotl', 'Bearded Dragon', 'Snake', 'Cats', 'Dogs', 
                   'Hamsters', 'Flamingos', 'Tigers', 'Iguanas', 'Bears', 'Rats'];
@@ -53,7 +42,7 @@ setInterval(function(){
 var createBtn = function(){
     $('#buttons')
     for(var i = 0; i<topics.length; i++){
-        var newBtn = $('<button class = "gifBtn">');
+        var newBtn = $('<a href="#" class = "btn btn-sm animated-button victoria-one"></a>');
  
          newBtn.attr('data-name',topics[i]);
             newBtn.attr('value', topics[i])
@@ -130,7 +119,7 @@ $(document).on('click', '.gif', function(){
             console.log(this)
                    
 });
-$(document).on('click', '.gifBtn', displayGif)
+$(document).on('click', '.btn', displayGif)
 
 
 
